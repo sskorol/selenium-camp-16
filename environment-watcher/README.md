@@ -19,6 +19,7 @@ This module provides an implementation of REST client and services for remote en
  - Loseless images compression via `webp-imageio` library.
  
 Please note that by default `CmdCapture.exe` and `webp-imageio.dll` resources are configured to be unpacked into Windows temporary folder for further usage.
+
 To be able to compress images `webp-imageio.dll` should be loaded on server startup (see `loadLibrary` usages).
 
 **Usage:**
