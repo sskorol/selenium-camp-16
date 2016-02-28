@@ -27,7 +27,7 @@
                         <excludeReactor>false</excludeReactor>
                         <includes>
                             <include>com.blogspot.notes.automation.qa:static-context</include>
-                            <include>com.blogspot.notes.automation.qa:mysql-dataprovider</include>
+                            <include>com.blogspot.notes.automation.qa:mysql-data-provider</include>
                             <include>com.blogspot.notes.automation.qa:env-watcher-core</include>
                             <include>com.blogspot.notes.automation.qa:env-watcher-server</include>
                             <include>com.blogspot.notes.automation.qa:env-watcher-client</include>
