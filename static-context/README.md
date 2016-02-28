@@ -10,4 +10,5 @@ clean test
 Please note that you need to setup Selenium Grid environment with at least 2 Chrome nodes by your own to be able to start the demo.
 
 `StaticWebDriverRunner` is a default runner for race condition replication.
+
 `ThreadLocalWebDriverRunner` and `ConcurrentHashMapWebDriverRunner` provide the way of how this issue could be resolved.
