@@ -2,6 +2,7 @@
 # Static context: friend or enemy?
 
 This module provides some basics about static variables misusing in a multi-threaded environment.
+
 To run a common example you need to create a separate maven run configuration for this particular module with the following goals:
 ```cmd
 clean test
