@@ -1,0 +1,7 @@
+<aspectj>
+    <aspects>
+        <aspect name="com.blogspot.notes.automation.qa.core.aspects.UserAspect"/>
+    </aspects>
+
+    <weaver options="-Xset:weaveJavaxPackages=true"/>
+</aspectj>

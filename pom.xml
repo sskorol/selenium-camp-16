@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.blogspot.notes.automation.qa</groupId>
+    <artifactId>selenium-camp-samples</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0</version>
+
+    <modules>
+        <module>static-context</module>
+        <module>selenium-server-standalone</module>
+        <module>mysql-data-provider</module>
+        <module>environment-watcher</module>
+    </modules>
+
+    <build>
+        <pluginManagement>
+            <plugins>
+                <plugin>
+                    <groupId>org.codehaus.mojo</groupId>
+                    <artifactId>versions-maven-plugin</artifactId>
+                    <version>2.2</version>
+                    <configuration>
+                        <excludeReactor>false</excludeReactor>
+                        <includes>
+                            <include>com.blogspot.notes.automation.qa:static-context</include>
+                            <include>com.blogspot.notes.automation.qa:mysql-dataprovider</include>
+                            <include>com.blogspot.notes.automation.qa:env-watcher-core</include>
+                            <include>com.blogspot.notes.automation.qa:env-watcher-server</include>
+                            <include>com.blogspot.notes.automation.qa:env-watcher-client</include>
+                        </includes>
+                    </configuration>
+                </plugin>
+            </plugins>
+        </pluginManagement>
+    </build>
+</project>

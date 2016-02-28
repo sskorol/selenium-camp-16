@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Static context sample suite" parallel="tests" thread-count="2">
+    <test name="Static call 1">
+        <classes>
+            <class name="com.blogspot.notes.automation.qa.testcases.WebDriverTests">
+                <methods>
+                    <include name="searchForAutomationInGoogle"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Static call 2">
+        <classes>
+            <class name="com.blogspot.notes.automation.qa.testcases.WebDriverTests">
+                <methods>
+                    <include name="searchForQualityInGoogle"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
