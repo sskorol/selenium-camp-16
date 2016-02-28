@@ -108,7 +108,7 @@ public class WatcherClient {
 	}
 
 	public static void main(String[] args) throws ServiceException {
-		WatcherClient client = new WatcherClient("hyperion", 4041);
+		WatcherClient client = new WatcherClient("yourHostIpOrDomain", 4041);
 		client.killCommonTasks(10, CommonTask.FIREFOX, CommonTask.IE_BROWSER);
 		client.killJavaTasks(10, JavaTask.SELENIUM);
 		client.startScript("C:\\Grid\\start_hub.bat", 10);
